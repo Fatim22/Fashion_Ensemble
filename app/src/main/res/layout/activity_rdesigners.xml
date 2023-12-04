@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/ChoseR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/ChoseE"
+        android:textAlignment="center"
+        android:textColor="#00ACC1"
+        android:textSize="40sp"
+        android:typeface="sans"
+        android:fontFamily="cursive"
+         />
+
+    <GridView
+        android:id="@+id/gridview4"
+        android:layout_width="match_parent"
+        android:layout_height="308dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:verticalSpacing="5dp" />
+
+    <ImageView
+        android:id="@+id/image_des4"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:contentDescription="@string/image_des1"
+
+         />
+
+    <Button
+        android:id="@+id/btnR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#00ACC1"
+        android:fontFamily="serif"
+        android:text="@string/btnE"
+        android:textSize="30sp" />
+</LinearLayout>

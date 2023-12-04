@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">  Fashion Ensemble</string>
+    <string name="imgTween">imgDes</string>
+
+
+    <string name="sign">Sign in</string>
+    <string name="te1"> Enter username</string>
+    <string name="ps">Enter Password</string>
+    <string name="button1">Click</string>
+    <string name="city">City</string>
+    <string-array name="City">
+        <item>Riyadh</item>
+        <item>Dammam</item>
+        <item>Makkah</item>
+    </string-array>
+    <string name="tc"> select City</string>
+
+
+    <string name="im1">ds1</string>
+    <string name="im2">ds2</string>
+    <string name="im3">ds3</string>
+    <string name="im4">ds4</string>
+    <string name="te2">select a designer</string>
+
+
+
+    <string name="image_des1">selected this image</string>
+    <string name="ChoseE"> Choose  suitable design</string>
+    <string name="btnE">Pay</string>
+
+
+    <string name="image_des3">selected this image</string>
+    <string name="ChoseZ">Choose suitable design</string>
+    <string name="btnZ">Pay</string>
+
+
+
+    <string name="image_des4">selected this image</string>
+    <string name="ChoseR"> Choose  suitable design</string>
+    <string name="btnR">Pay</string>
+
+
+    <string name="ChoosePayment">Choose Payments Method</string>
+    <string name="Card">Card</string>
+    <string name="Cash">Cash</string>
+    <string name="Enter">Enter</string>
+    <string name="SelectDateofDelivery">Choose Date of Delivery</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Completetheorder">Complete the order</string>
+    <string name="Des">Description img</string>
+    <string name="Des2">Description img</string>
+    <string name="Thankyou"></string>
+    <string name="Thankyou2"></string>
+    <string name="ResultChoose"></string>
+    <string name="info"> Information Of Card</string>
+    <string name="NumberCArd">Enter Number Card</string>
+    <string name="DateCard">Enter Expreition Card</string>
+    <string name="Pass">Password</string>
+    <string name="ccv">CCV</string>
+    <string name="Click">NEXT</string>
+
+
+</resources>

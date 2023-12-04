@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
+        android:text="@string/sign"
+        android:textAlignment="center"
+        android:textColor="#00ACC1"
+        android:textSize="60sp"
+        android:typeface="sans"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/tf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="@string/te1"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="24sp"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="@string/ps"
+        android:inputType="numberPassword"
+        android:minHeight="48dp"
+
+        android:textSize="24sp"
+        tools:ignore="Autofill,VisualLintTextFieldSize,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="@string/tc"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:dropDownVerticalOffset="48dp"
+        android:entries="@array/City"
+        android:minHeight="48dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:popupBackground="#FFFFFF"
+        android:popupElevation="4dp"
+        android:prompt="@string/city"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#00ACC1"
+        android:fontFamily="serif"
+        android:text="@string/button1"
+        android:textColorHighlight="#393232"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
